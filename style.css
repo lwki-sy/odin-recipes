@@ -1,9 +1,30 @@
 *{
     box-sizing: border-box;
-    background-color: rgba(245, 245, 220, 0.842);
+    background-color: rgba(252, 252, 190, 0.842);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.title{
-    display:inline-block;
+h1, li{
+    display: inline-block;
+    text-align: center;
+}
+
+h1{
+
+    background-color: rgb(250, 226, 120);
+    color: rgb(43, 28, 0);
+    font-size: 16px;
+
+    border-radius: 14px;
+    margin-bottom:6px;
+    padding:14px;
+}
+
+li{
+    background-color: rgb(247, 230, 155);
+    color: rgb(248, 234, 171);
+
+    font-size: 12px;
+    border-radius: 24px 8px;
+    padding: 12px;
 }
